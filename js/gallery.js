@@ -41,8 +41,8 @@ var lengthgal=images.length;
    // var Wcl=document.getElementById("demo2").width;
   var Him=Wcl*imgesH[slideIndex-1]/imgesW[slideIndex-1];
   var Wim=Wcl
-  console.log("Him, Wim, Hcl,Wcl "+Him+" "+Wim+" "+Hcl+" "+Wcl);
-  var marginH=(Hcl-Him)/2;
+  //console.log("Him, Wim, Hcl,Wcl "+Him+" "+Wim+" "+Hcl+" "+Wcl);
+  //var marginH=(Hcl-Him)/2;
 
   if(Him>Hcl){
   slides[1].style.display = "none"; 
@@ -54,8 +54,10 @@ var lengthgal=images.length;
   slides[0].style.display = "none"; 
   slides[1].style.display = "block"; 
   
-  document.getElementById("demo2").style="width:100%;"+"margin-top:"+marginH+"px;"
-  document.getElementById("demo2").src="gallery/"+images[slideIndex-1];}
+  //document.getElementById("demo2").style="width:100%;"+"margin-top:"+marginH+"px;"
+  document.getElementById("demo2").src="gallery/"+images[slideIndex-1];
+}
+  document.getElementById("dummy1").src="gallery/"+images[slideIndex-1+1];
   
   
 

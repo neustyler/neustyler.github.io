@@ -75,6 +75,10 @@ background-color:white;
 
 }
 
+.mySlides#slidedummy {
+  display: none;
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
@@ -83,16 +87,19 @@ background-color:white;
 /* Next & previous buttons */
 .prev,
 .next {
+  opacity: 0.0;
   cursor: pointer;
   position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
+  
+  top: 0%;
+  width: 50%;
+  height:70%;
+  padding: 0px;
+  margin-top: 0px;
+  color: blue;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+
   user-select: none;
   -webkit-user-select: none;
 }
@@ -100,14 +107,14 @@ background-color:white;
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+
+}
+.prev {
+  left: 0;
+ 
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
 
 
