@@ -1,0 +1,114 @@
+
+footer {
+  padding: 2px 0;
+  margin-bottom: 2px;
+  text-align: center;
+  color: white;
+  background-color:#03a9f4;
+  background:linear-gradient(to left, #81d4fa, #039be5);
+  
+}
+
+footer p {
+  font-size: 12px;
+  margin: 1;
+  padding:1,1,1,1;
+text-align:bottom;
+}
+
+footer ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding:1,1,1,1;
+  margin-left: 20;
+  margin-right: 20;
+}
+
+footer ul li a {
+  font-size: 18px;
+  color: white;
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
+
+header h1 {
+background-color:white;
+  text-align: center;
+  color: #03a9f4 ;
+}
+.jumbotron {
+  background-color: #80deea;
+  text-align: center;
+  height:600px;
+  
+
+}
+
+
+
+
+
+
+
+/* Hide the images by default */
+/*.mySlides {
+  display: none;
+}
+
+.mySlides#slide0 {
+  display: block;
+}
+*/
+
+
+.mySlides {
+  text-align: center;
+}
+
+.mySlides#slide0 {
+  display: block;
+}
+.mySlides#slide1 {
+  display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
